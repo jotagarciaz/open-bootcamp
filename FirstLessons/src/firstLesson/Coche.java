@@ -19,5 +19,9 @@ public class Coche {
 		this.puertas = puertas;
 	} 
 	
+	public void incrementaPuertas() {
+		this.puertas++;
+	}
+	
 	
 }

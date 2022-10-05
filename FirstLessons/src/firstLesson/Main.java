@@ -9,6 +9,7 @@ public class Main {
 		suma(5,2.1, 3.3);
 		
 		Coche miCoche = new Coche(4);
+		miCoche.incrementaPuertas();
 		System.out.println("Mi Coche: " + miCoche.getPuertas());
 	}
 
